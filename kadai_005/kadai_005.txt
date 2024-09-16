@@ -1,0 +1,37 @@
+
+Mode                 LastWriteTime         Length Name                                              
+----                 -------------         ------ ----                                              
+d-----        2024/09/16     22:37                git_challenge                                     
+
+
+PS C:\Users\equfz\Desktop\さむらい> cd C:\Users\equfz\Desktop\さむらい\git_challenge
+PS C:\Users\equfz\Desktop\さむらい\git_challenge> git init
+PS C:\Users\equfz\Desktop\さむらい\git_challenge> echo Hello,world! >> hello_world.txt
+PS C:\Users\equfz\Desktop\さむらい\git_challenge> git add .
+PS C:\Users\equfz\Desktop\さむらい\git_challenge> git status
+
+No commits yet
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hello_world.txt
+
+PS C:\Users\equfz\Desktop\さむらい\git_challenge> git commit -m "最初のコミット"
+[main (root-commit) 76b5eaf] 最初のコミット
+ create mode 100644 hello_world.txt
+PS C:\Users\equfz\Desktop\さむらい\git_challenge> git status
+nothing to commit, working tree clean
+PS C:\Users\equfz\Desktop\さむらい\git_challenge> git add .
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello_world.txt
+
+PS C:\Users\equfz\Desktop\さむらい\git_challenge> git commit -m "2回目のコミット"
+[main 320b11e] 2回目のコミット
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\equfz\Desktop\さむらい\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\equfz\Desktop\さむらい\git_challenge> git log --oneline
+320b11e (HEAD -> main) 2回目のコミット
+76b5eaf 最初のコミット
+PS C:\Users\equfz\Desktop\さむらい\git_challenge> 
